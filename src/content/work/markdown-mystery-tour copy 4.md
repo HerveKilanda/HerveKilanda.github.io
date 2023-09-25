@@ -49,4 +49,4 @@ Ce projet représente mon engagement envers le développement web, l'innovation 
 
 ---
 
-N'hésitez pas à personnaliser cette description en fonction de votre expérience spécifique et de l'évolution de votre application "RecipesMaster".
+
