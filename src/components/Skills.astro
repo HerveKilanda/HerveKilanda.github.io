@@ -1,0 +1,64 @@
+---
+import Icon from './Icon.astro';
+---
+
+<section class="box skills">
+	<div class="stack gap-2 lg:gap-4">
+    <Icon icon="terminal-window" color="var(--accent-regular)" size="2.5rem" gradient />
+    <h2>Full Stack Development</h2>
+    <p>Maîtrise du développement tant côté front-end que back-end. Expérience dans la création d'applications web complètes, de la conception à la mise en production.</p>
+</div>
+<div class="stack gap-2 lg:gap-4">
+    <Icon icon="agile" color="var(--accent-regular)" size="2.5rem" gradient />
+    <h2>Gestion de Projet Agile</h2>
+    <p>Maîtrise des méthodologies agiles telles que Scrum ou Kanban pour la gestion efficace de projets web.</p>
+</div>
+
+<div class="stack gap-2 lg:gap-4">
+    <Icon icon="mobile" color="var(--accent-regular)" size="2.5rem" gradient />
+    <h2>Développement Mobile</h2>
+    <p>Création d'applications mobiles pour iOS et Android en utilisant des langages comme Swift, Kotlin, ou des frameworks comme React Native.</p>
+</div>
+
+</section>
+
+<style>
+	.box {
+		border: 1px solid var(--gray-800);
+		border-radius: 0.75rem;
+		padding: 1.5rem;
+		background-color: var(--gray-999_40);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.skills {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
+
+	.skills h2 {
+		font-size: var(--text-lg);
+	}
+
+	.skills p {
+		color: var(--gray-400);
+	}
+
+	@media (min-width: 50em) {
+		.box {
+			border-radius: 1.5rem;
+			padding: 2.5rem;
+		}
+
+		.skills {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 5rem;
+		}
+
+		.skills h2 {
+			font-size: var(--text-2xl);
+		}
+	}
+</style>
