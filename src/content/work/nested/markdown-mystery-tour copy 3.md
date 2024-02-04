@@ -1,21 +1,16 @@
 ---
-title: SpaceWebsite
-publishDate: 2024-02-02 00:00:00
+title: SpaceWebsite 
+publishDate: 2023-10-30 00:00:00
 img: /assets/spacewebsite.png
 img_alt: Vue de la Terre depuis l'espace sur SpaceWebsite
 description: |
   SpaceWebsite est une application web immersive conçue pour éduquer et inspirer les utilisateurs à travers une expérience interactive de l'espace. Développée avec ReactJS et Tailwind CSS, cette plateforme offre une exploration visuelle captivante des différentes orbites, satellites et technologies spatiales. Grâce à l'intégration de contenu multimédia riche et de visualisations interactives, les utilisateurs peuvent découvrir les merveilles de l'univers depuis leur navigateur.
-tags:  - Développement web
- - ReactJS
-- Tailwind CSS
-- Espace
-- Éducation
-  
+
+tags:
+  - Développement web
+  - ReactJS
+  - Tawlind CSS
 ---
-
----
-
-
 
 ### Contexte
 
@@ -46,3 +41,12 @@ Node.js & NPM/Yarn : Comme environnement d'exécution côté serveur et gestionn
 SpaceWebsite a décollé avec succès, fournissant un portail unique pour l'éducation et l'inspiration spatiales. Il a été salué pour son approche intuitive et sa capacité à rendre l'apprentissage de l'espace accessible et engageant. Ce projet a non seulement consolidé ma maîtrise de ReactJS et de Tailwind CSS, mais a également enrichi mes connaissances en astronomie et en visualisation des données.
 
 ---
+
+
+
+
+
+
+
+
+
